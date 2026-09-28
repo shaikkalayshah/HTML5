@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: 30px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid black;
+            height: 45px;
+            padding: 5px;
+        }
+
+        th {
+            font-size: 18px;
+        }
+
+        .day {
+            font-weight: bold;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .lunch {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <!-- Header -->
+    <tr>
+        <th></th>
+        <th>I</th>
+        <th>II</th>
+        <th>III</th>
+        <th rowspan="7" class="lunch">LUNCH</th>
+        <th>IV</th>
+        <th>V</th>
+        <th>VI</th>
+    </tr>
+
+    <!-- Monday -->
+    <tr>
+        <td class="day">MON</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <!-- Tuesday -->
+    <tr>
+        <td class="day">TUE</td>
+        <td colspan="3">OS LAB</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <!-- Wednesday -->
+    <tr>
+        <td class="day">WED</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="3">DB LAB</td>
+    </tr>
+
+    <!-- Thursday -->
+    <tr>
+        <td class="day">THURS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <!-- Friday -->
+    <tr>
+        <td class="day">FRI</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="2">LIBRARY</td>
+    </tr>
+
+    <!-- Saturday -->
+    <tr>
+        <td class="day">SAT</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td colspan="2">SPORTS</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hero Image</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 25px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        /* Hero Image with Border */
+        .hero {
+            position: relative;
+            height: 390px;
+            background-image: url("redbull.jpg");
+            background-size: cover;
+            background-position: center;
+            border: 5px solid black;
+            border-radius: 18px;
+            overflow: hidden;
+        }
+
+        /* Hero text */
+        .hero-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 50, 100, 0.55);
+            padding: 25px 45px;
+        }
+
+        .hero-content h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .hero-content p {
+            font-size: 25px;
+            margin: 15px 0 0;
+        }
+
+        /* Hero Text Border */
+        .hero-text {
+            position: relative;
+            height: 390px;
+            margin-top: 30px;
+            background-image: url(mountain.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .text-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            border: 3px solid white;
+            border-radius: 25px;
+            padding: 25px 70px;
+            background-color: rgba(0, 0, 0, 0.15);
+        }
+
+        .text-box h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        .text-box p {
+            margin: 15px 0 0;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>1. Hero Image with Border</h2>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Explore the Beauty</h1>
+            <p>Nature always wears the colors of the spirit.</p>
+        </div>
+    </div>
+
+
+    <h2 style="margin-top: 55px;">2. Hero Text Border</h2>
+
+    <div class="hero-text">
+        <div class="text-box">
+            <h1>Explore the World</h1>
+            <p>New places. New stories.</p>
+        </div>
+    </div>
+
+</body>
+</html>
